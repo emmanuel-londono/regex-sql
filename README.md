@@ -1,5 +1,5 @@
 # regex-sql
-Useful Regex Commands for editing SQL files.
+Useful Regex patterns for editing SQL files.
 
 ## CREATE TABLE
 ### Add PRIMARY KEY to first id column
