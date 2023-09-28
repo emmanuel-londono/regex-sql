@@ -13,6 +13,9 @@ $0 PRIMARY KEY
 <br/>
 You may add more data types in regex in between the \b()\b section. 
 
+A
+
+## CREATE TABLE | INSERT INTO | ALTER TABLE
 ### Remove tbl in front of table name and then lowercase following text.
 
 ``(\b(CREATE TABLE|INSERT INTO|ALTER TABLE)\b) (\b(tbl([a-zA-Z]*)\b))``
