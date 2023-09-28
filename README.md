@@ -11,7 +11,7 @@ In your IDE, insert regex in find box then use replace all method with the follo
 <br/>
 $0 PRIMARY KEY
 <br/>
-You may add more data types in regex in between the ``\b()\b`` section. 
+You may add more data types in regex in between the \b()\b section. 
 
 ### Remove tbl in front of table name and then lowercase following text.
 
