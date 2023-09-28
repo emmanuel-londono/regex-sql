@@ -9,7 +9,7 @@ Useful Regex patterns for editing SQL files.
 <br/>
 In your IDE, insert regex in find box then use replace all method with the following:
 <br/>
-``$0 PRIMARY KEY``
+$0 PRIMARY KEY
 <br/>
 You may add more data types in regex in between the ``\b()\b`` section. 
 
@@ -20,5 +20,5 @@ You may add more data types in regex in between the ``\b()\b`` section.
 <br/>
 In your IDE, insert regex in find box then use replace all method with the following:
 <br/>
-``$1 \L$5,``
+$1 \L$5,
 <br/>
