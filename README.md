@@ -14,6 +14,18 @@ $0 PRIMARY KEY
 You may add more data types in regex in between the \b()\b section. 
 
 A
+### Modify ID type to UUID 
+
+``(CREATE TABLE|INSERT INTO) (.*?)(\()(\n)(\b\w*(id|key)\w*\b) (bigint|number|text|decimal)``
+
+<br/>
+In your IDE, insert regex in find box then use replace all method with the following:
+<br/>
+$1 $2 $3 $4$5 UUID
+<br/>
+You may add more data types in regex in between the bigint | decimal section. 
+
+A
 
 ## CREATE TABLE | INSERT INTO | ALTER TABLE
 ### Remove tbl in front of table name and then lowercase following text.
