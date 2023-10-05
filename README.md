@@ -1,6 +1,22 @@
 # regex-sql
 Useful Regex patterns for editing SQL files.
 
+EXAMPLE FORMAT 
+
+``
+CREATE TABLE operation  ( 
+opnid UUID PRIMARY KEY,
+operation_name text
+);
+``
+``
+INSERT INTO operation
+VALUES (
+4,
+'FIRESTORM'
+);
+``
+
 ## CREATE TABLE
 ### Add PRIMARY KEY to first id column
 
