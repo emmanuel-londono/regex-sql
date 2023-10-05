@@ -34,7 +34,7 @@ You may add more data types in regex in between the \b()\b section.
 
 ### Modify ID type to UUID 
 
-``(CREATE TABLE|INSERT INTO) (.*?)(\()(\n)(\b\w*(id|key)\w*\b) (bigint|number|text|decimal)``
+``(CREATE TABLE) (.*?)(\()(\n)(\b\w*(id|key)\w*\b) (bigint|number|text|decimal)``
 
 <br/>
 In your IDE, insert regex in find box then use replace all method with the following:
