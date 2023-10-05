@@ -46,14 +46,14 @@ You may add more data types in regex in between the bigint | decimal section.
 
 
 ## INSERT INTO 
-### Modify first value of an insert statment.
+### Modify first value of an insert statment. I chose to replace it with ``uuid_generate_v4()``
 
 ``(INSERT INTO) ("([^"]+)"|\b\w+\b)(\n)(VALUES) (\()(\n)([-+]?\b\d+\.\d+\b|\b\d+\b|\b\w+\b)``
 
 <br/>
 In your IDE, insert regex in find box then use replace all method with the following:
 <br/>
-$1 \L$5,
+$1 $2 $3 $4$5 $6 \nuuid_generate_v4()
 <br/>
 
 ## CREATE TABLE | INSERT INTO | ALTER TABLE
