@@ -3,6 +3,8 @@ Useful Regex patterns for editing SQL files.
 
 EXAMPLE FORMAT 
 
+![Image](example_format.png)
+
 ``
 CREATE TABLE operation  ( 
 opnid UUID PRIMARY KEY,
