@@ -56,9 +56,9 @@ In your IDE, insert regex in find box then use replace all method with the follo
 $1 $2 $3 $4$5 $6 \nuuid_generate_v4()
 <br/>
 
-### Match a specific line number. I chose line 4.
+### Match a specific line number. I chose line 5. Replace that line's contents with anything. Edit the last capturing group to include your last line.
 
-``INSERT INTO [^\n]+\n(?:[^\n]*\n){4}([^\n]*)\n``
+``(INSERT INTO [^\n]+\nVALUES \()((?:[^\n]*\n){5})([1],)``
 <br/>
 
 ## CREATE TABLE | INSERT INTO | ALTER TABLE
