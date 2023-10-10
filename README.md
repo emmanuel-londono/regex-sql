@@ -60,6 +60,11 @@ $1 $2 $3 $4$5 $6 \nuuid_generate_v4()
 
 ``(INSERT INTO [^\n]+\nVALUES \()((?:[^\n]*\n){5})([1],)``
 <br/>
+In your IDE, insert regex in find box then use replace all method with the following:
+<br/>
+$1$2'uuid',
+<br/>
+
 
 ## CREATE TABLE | INSERT INTO | ALTER TABLE
 ### Remove tbl in front of table name and then lowercase following text.
