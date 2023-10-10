@@ -58,7 +58,7 @@ $1 $2 $3 $4$5 $6 \nuuid_generate_v4()
 
 ### Match a specific line number. I chose line 4.
 
-``(INSERT INTO) ("([^"]+)"|\b\w+\b)(\n)(VALUES) (\()(\n)(?:[^\n]*\n){4}``
+``INSERT INTO [^\n]+\n(?:[^\n]*\n){4}([^\n]*)\n``
 <br/>
 
 ## CREATE TABLE | INSERT INTO | ALTER TABLE
